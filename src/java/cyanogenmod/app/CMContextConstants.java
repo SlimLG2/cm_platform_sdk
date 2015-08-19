@@ -41,18 +41,6 @@ public final class CMContextConstants {
 
     /**
      * Use with {@link android.content.Context#getSystemService} to retrieve a
-     * {@link cyanogenmod.app.ProfileManager} for informing the user of
-     * background events.
-     *
-     * @see android.content.Context#getSystemService
-     * @see cyanogenmod.app.ProfileManager
-     *
-     * @hide
-     */
-    public static final String CM_PROFILE_SERVICE = "profile";
-
-    /**
-     * Use with {@link android.content.Context#getSystemService} to retrieve a
      * {@link cyanogenmod.app.SettingsManager} changing system settings.
      *
      * @see android.content.Context#getSystemService
@@ -85,4 +73,5 @@ public final class CMContextConstants {
      * @hide
      */
     public static final String CM_HARDWARE_SERVICE = "cmhardware";
+
 }
